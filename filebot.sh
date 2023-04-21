@@ -16,13 +16,12 @@ APP_DATA="${HOME}/.config/filebot"
 LIBRARY_PATH="${FILEBOT_HOME}/lib/$(uname -m):/lib64"
 MODULE_PATH="${FILEBOT_HOME}/openjfx"
 
-/usr/lib/jvm/java-11-openjdk/bin/java \
+/usr/lib/jvm/java-17-openjdk/bin/java \
     -Dapplication.deployment=aur \
     --module-path "${MODULE_PATH}" \
     --add-modules ALL-MODULE-PATH \
     -Dapplication.update=skip \
     -Dnet.filebot.archive.extractor=ShellExecutables \
-    --illegal-access=permit \
     --add-opens=java.base/java.lang=ALL-UNNAMED \
     --add-opens=java.base/java.lang.reflect=ALL-UNNAMED \
     --add-opens=java.base/java.lang.invoke=ALL-UNNAMED \
