@@ -6,6 +6,7 @@
 # Contributor: Kaurin <milos dot kaurin at gmail>
 # Contributor: Nathan Owe <ndowens04 at gmail>
 # Contributor: Bernhard Bermeitinger <bernhard.bermeitinger at gmail.com>
+# Contributor: François Bastien <fmrbastien at gmail dot com>
 
 pkgname=filebot
 pkgver=5.1.2
@@ -14,7 +15,7 @@ pkgdesc="The ultimate TV and Movie Renamer"
 arch=('i686' 'x86_64' 'aarch64' 'armv7l' 'armv7h')
 url="https://www.filebot.net/"
 license=('Commercial')
-depends=('jre17-openjdk' 'java17-openjfx' 'fontconfig' 'chromaprint')
+depends=('jre17-openjdk' 'fontconfig' 'chromaprint')
 makedepends=()
 checkdepends=()
 
