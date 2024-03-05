@@ -32,7 +32,7 @@ source=("https://get.filebot.net/filebot/FileBot_${pkgver}/FileBot_${pkgver}-aur
 
 sha256sums=('f8acf7af5d6aa992b6aed1d41caf484cae967ed6cb0d501656ba82d3f22c736a'
             'SKIP'
-            '3c05e7ac0f2268a42dccc9158081022db857c656f8350d33518bc7ad7ac17a3a')
+            'da91e22b0bc2bfda035ca0bb8e277e93d3bf4436c540938be52105a383317018')
 validpgpkeys=('B0976E51E5C047AD0FD051294E402EBF7C3C6A71')
 
 package() {

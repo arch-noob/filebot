@@ -11,6 +11,9 @@ if [ "$(id -u)" = "0" ]; then
   echo "$0 must NOT run as root"
 fi
 
+# Disable wayland to force xwayland
+WAYLAND_DISPLAY=
+
 # select application data folder
 APP_DATA="${HOME}/.config/filebot"
 LIBRARY_PATH="${FILEBOT_HOME}/lib/$(uname -m):/lib64"
