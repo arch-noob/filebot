@@ -24,7 +24,7 @@ WAYLAND_DISPLAY=
 # see https://github.com/arch-noob/filebot/issues/30
 # see https://wiki.archlinux.org/title/Java
 if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
-    _JAVA_AWT_WM_NONREPARENTING=1
+    export _JAVA_AWT_WM_NONREPARENTING=1
 fi
 
 # shellcheck disable=SC2086
